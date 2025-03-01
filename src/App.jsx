@@ -5,7 +5,7 @@ import { ElevenLabsClient } from 'elevenlabs';
 import AudioVisualizer from './AudioVisualizer';
 
 const client = new ElevenLabsClient({
-  apiKey: "sk_ec55c4cdf690933d6a9cecd8ab2b4ad14b19c4cb182da819"
+  apiKey: import.meta.env.VITE_ELEVENLABS_API_KEY,
 });
 
 function App() {
